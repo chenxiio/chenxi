@@ -1,0 +1,7 @@
+<IOCfg>
+ <Help name="unit.test.test1" dt="int,string,double,bool" cat="Memory,IO" dvid="1" svid="1" ecid="1" dfval="默认值" enum="" unit="" expr="" min="" max="" pst="" drv="0" pr="读取时参数，例如" pw="写入时参数，例如" rs="0" desc=""></Help>
+ <Items>
+  <IO name="IO2" dt="double" cat="output" dvid="2" svid="2" ecid="2" dfval="0.0" enum="" unit="" expr="" min="" max="" pst="" drv="0" pr="" pw="" rs="200" desc=""></IO>
+  <IO name="IO1" dt="int" cat="input" dvid="1" svid="1" ecid="1" dfval="0" enum="" unit="" expr="" min="" max="" pst="" drv="0" pr="" pw="" rs="200" desc=""></IO>
+ </Items>
+</IOCfg>

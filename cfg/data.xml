@@ -1,0 +1,26 @@
+<UnitRecipeTPL>
+  <Nodes>
+    <Node type="HP">
+      <Header>
+        <Item disname="h Name 1" name="Name 1" default_value="Default Value 1" min="Min 1" max="Max 1" type="Type 1" enum="Enum 1"></Item>
+        <Item disname="h Name 2" name="Name 2" default_value="Default Value 2" min="Min 2" max="Max 2" type="Type 2"></Item>
+      </Header>
+      <Step>
+        <Item disname="Display Name 1" name="Name 1" default_value="Default Value 1" min="Min 1" max="Max 1" type="Type 1" enum="Enum 1"></Item>
+        <Item disname="Display Name 2" name="Name 2" default_value="Default Value 2" min="Min 2" max="Max 2" type="Type 2"></Item>
+        <Item disname="Display Name 3" name="Name 3" default_value="Default Value 3" min="Min 3" max="Max 3" type="Type 3" enum="Enum 3"></Item>
+      </Step>
+    </Node>
+    <Node type="CP">
+      <Header>
+        <Item disname="h Name 1" name="Name 1" default_value="Default Value 1" min="Min 1" max="Max 1" type="Type 1" enum="Enum 1"></Item>
+        <Item disname="h Name 2" name="Name 2" default_value="Default Value 2" min="Min 2" max="Max 2" type="Type 2"></Item>
+      </Header>
+      <Step>
+        <Item disname="Display Name 1" name="Name 1" default_value="Default Value 1" min="Min 1" max="Max 1" type="Type 1" enum="Enum 1"></Item>
+        <Item disname="Display Name 2" name="Name 2" default_value="Default Value 2" min="Min 2" max="Max 2" type="Type 2"></Item>
+        <Item disname="Display Name 3" name="Name 3" default_value="Default Value 3" min="Min 3" max="Max 3" type="Type 3" enum="Enum 3"></Item>
+      </Step>
+    </Node>
+  </Nodes>
+</UnitRecipeTPL>

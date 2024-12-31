@@ -1,0 +1,10 @@
+<CMcfgs>
+  <Carrier name="CM2" slot_name="">
+    <slot name="1" priority="1"></slot>
+    <slot name="2" priority="2"></slot>
+  </Carrier>
+  <Carrier name="CM1" slot_name="">
+    <slot name="1" priority="1"></slot>
+    <slot name="2" priority="2"></slot>
+  </Carrier>
+</CMcfgs>

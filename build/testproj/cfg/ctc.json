@@ -1,0 +1,29 @@
+{
+    "ProcessJobMode": "",
+    "Group": {
+     "tmtest1": ["pmtest1","pmtest2","pmtest3","pmtest4"], 
+     "tmtest2": ["cmtest1","cmtest2","pmtest1","pm1test1","pm1test2","pm1test3","pm1test4","pm0test1"]     
+    },
+    "Enable_paths": null,
+    "Disable_paths": [
+     "pmtest23-tmtest19"
+    ],
+    "Return_paths": {
+     "pmtest10": "cmtest10"
+    },
+    "Priority": {
+     "pmtest1-tmtest1": 10,
+     "pmtest1-tmtest2": 0
+    },
+    "Interlocking": [
+        {
+         "Units": [
+          "pmtest1",
+          "pmtest2",
+          "pmtest3"
+         ],
+         "InParallel": 2,
+         "OutParallel": 3
+        }       
+       ]
+}

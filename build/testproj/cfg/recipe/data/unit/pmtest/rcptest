@@ -1,0 +1,16 @@
+<UnitRecipe type="pmtest">
+  <Info>
+    <Item name="user" value="value1"></Item>
+    <Item name="createtime" value="value2"></Item>
+  </Info>
+  <Header>
+    <Item name="header1" value="headerValue1"></Item>
+    <Item name="header2" value="headerValue2"></Item>
+  </Header>
+  <Steps>
+    <Step id="1">
+      <Item name="stepItem1" value="stepValue1"></Item>
+      <Item name="stepItem2" value="stepValue2"></Item>
+    </Step>
+  </Steps>
+</UnitRecipe>

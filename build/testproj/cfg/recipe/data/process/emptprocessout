@@ -1,0 +1,5 @@
+<ProcessRecipe>
+  <Step name="1" subprocess="">      
+    <Unit>pmtest1|rcptest</Unit>
+  </Step> 
+</ProcessRecipe>

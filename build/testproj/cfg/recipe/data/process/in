@@ -1,0 +1,14 @@
+<ProcessRecipe>
+  <Step name="1" subprocess="">      
+    <Unit>pm1test1|rcptest</Unit>
+    <Unit>pm1test2|rcptest</Unit>
+    <Unit>pm1test3|rcptest</Unit>
+    <Unit>pm1test4|rcptest</Unit>
+  </Step>
+  <Step name="2" subprocess="emptprocess">    
+    <Unit>pmtest1|rcptest</Unit>
+  </Step>
+  <Step name="3" subprocess="">
+    <Unit>pmtest2|rcptest</Unit>    
+  </Step>
+</ProcessRecipe>

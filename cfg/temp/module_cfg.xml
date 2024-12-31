@@ -1,0 +1,7 @@
+<Modules>
+ <Module id="1" process_name="" name="test_module_1" api="test_type_1" type="" path="test_path_1" parm="test_parm_1" slot_count="0" priority="0"></Module>
+ <Module id="2" process_name="" name="test_module_2" api="test_type_2" type="" path="test_path_2" parm="test_parm_2" slot_count="0" priority="0"></Module>
+ <Processes>
+  <Process process_name="ioserver" url="localhost:10600"></Process>
+ </Processes>
+</Modules>

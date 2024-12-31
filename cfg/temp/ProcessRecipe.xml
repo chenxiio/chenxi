@@ -1,0 +1,10 @@
+<ProcessRecipe>
+  <Step name="1" subprocess="emptprocess">
+    <Unit>TRS1|TRSTest</Unit>
+    <Unit>TRS2|TRSTest</Unit>
+  </Step>
+  <Step name="2" subprocess="">
+    <Unit>PRS1|TRSTest</Unit>
+    <Unit>PRS2|TRSTest</Unit>
+  </Step>
+</ProcessRecipe>

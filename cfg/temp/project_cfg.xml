@@ -1,0 +1,26 @@
+<Project current_project="./testproj">
+ <Alarms>
+  <Kv name="name1" value="value1"></Kv>
+ </Alarms>
+ <DevicesSecurity>
+  <Kv name="name1" value="value1"></Kv>
+ </DevicesSecurity>
+ <General>
+  <Kv name="name1" value="value1"></Kv>
+ </General>
+ <Notifications>
+  <Kv name="name1" value="value1"></Kv>
+ </Notifications>
+ <Reports>
+  <Kv name="name1" value="value1"></Kv>
+ </Reports>
+ <Scripts>
+  <Kv name="name1" value="value1"></Kv>
+ </Scripts>
+ <Texts>
+  <Kv name="name1" value="value1"></Kv>
+ </Texts>
+ <Views>
+  <Kv name="name1" value="value1"></Kv>
+ </Views>
+</Project>

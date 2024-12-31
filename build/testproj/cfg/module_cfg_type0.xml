@@ -1,0 +1,41 @@
+<Modules>
+ <Processes>
+  <Process process_name="ioserver" url="localhost:10600"></Process>
+ </Processes>
+ <!-- <Help id="-1" process_name="ioserver" name="test_module_1" api="DRIVER,PM.HP,CM,TM,CUSTOM" type="dll ,plugin ,class,exe" path="对象的路径，不需要加后缀，相对当前项目根目录路径" parm="Start 的参数" priority="test_priority_1"  ></Help> -->
+ <Module id="0" process_name="ioserver" name="ioserver" api="IOSERVER" type="ioserver" path="ioserver" parm="" priority="0" ></Module> 
+ <Module id="1" process_name="ioserver" name="recipe" api="RECIPE" type="recipe" path="recipe" parm=""  priority="0" ></Module> 
+ <Module id="2" process_name="ioserver" name="job" api="JOB" type="job" path="job" parm=""  priority="0" ></Module> 
+ <Module id="3" process_name="ioserver" name="alarm" api="ALARM" type="alarm" path="alarm" parm=""  priority="0" ></Module> 
+ <Module id="4" process_name="ioserver" name="dlldriver" api="DRIVER" type="dlldriver" path="bin/drivers/testdriver" parm="" priority="0"></Module> 
+ <Module id="5" process_name="ioserver" name="classdriver" api="DRIVER" type="classdriver" path="classdriver" parm=""  priority="0"></Module> 
+ <Module id="7" process_name="ioserver" name="pmtest1" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="1" psno="1"></Module> 
+ <Module id="8" process_name="ioserver" name="cmtest1" api="CM" type="cmtest" path="cmtest" parm=""  priority="0" slot_count="25" psno="0"></Module> 
+ <Module id="9" process_name="ioserver" name="tmtest1" api="TM" type="tmtest" path="tmtest" parm=""  priority="0" slot_count="1" psno="0"></Module> 
+ <Module id="10" process_name="ioserver" name="pmtest2" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="2" psno="2"></Module> 
+ <Module id="11" process_name="ioserver" name="cmtest2" api="CM" type="cmtest" path="cmtest" parm=""  priority="0" slot_count="25" psno="0"></Module> 
+ <Module id="12" process_name="ioserver" name="tmtest2" api="TM" type="tmtest" path="tmtest" parm=""  priority="0" slot_count="1" psno="0"></Module> 
+ <Module id="13" process_name="ioserver" name="pm1test1" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="1" psno="0"></Module> 
+ <Module id="14" process_name="ioserver" name="pm1test2" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="1" psno="0"></Module> 
+ <Module id="15" process_name="ioserver" name="pmtest3" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="2" psno="1"></Module> 
+ <Module id="16" process_name="ioserver" name="pmtest4" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="2" psno="4"></Module> 
+ <Module id="17" process_name="ioserver" name="pm1test3" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="1" psno="0"></Module> 
+ <Module id="18" process_name="ioserver" name="pm1test4" api="PM" type="pmtest" path="pmtest" parm=""  priority="0" slot_count="1" psno="0"></Module> 
+<TMcfgs>
+ <!-- <Help name="tmtest1" type="0:WAFER,1:CARRIER">
+    <Arm>tmtest1</Arm>
+  </Help> -->
+  <TMcfg name="tmtest1" type="0">
+    <Arm>tmtest1</Arm>
+  </TMcfg>
+  <TMcfg name="tmtest2" type="0">
+    <Arm>tmtest2</Arm>
+  </TMcfg>
+  <TMcfg name="_MV_tmtest1" type="0">
+    <Arm>_MV_tmtest1</Arm>
+  </TMcfg>
+  <TMcfg name="_MV_tmtest2" type="0">
+    <Arm>_MV_tmtest2</Arm>
+  </TMcfg>
+</TMcfgs>
+</Modules>

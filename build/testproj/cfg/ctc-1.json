@@ -1,0 +1,19 @@
+{
+    "ProcessJobMode": "",
+    "Group": {
+     "_MV_tmtest1": ["cmtest1","cmtest2","pmtest1","pmtest2","pm1test1","pm1test2"], 
+     "_MV_tmtest2": ["cmtest1","cmtest2","pmtest1","pmtest2"]     
+    },
+    "Enable_paths": null,
+    "Disable_paths": [
+     "pmtest23-tmtest19"
+    ],
+    "Return_paths": {
+     "pmtest10": "cmtest10"
+    },
+    "Priority": {
+     "tmtest1-cmtest1": 1,
+     "tmtest1-pmtest1": 2
+    },
+    "Interlocking": null
+   }

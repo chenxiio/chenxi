@@ -1,0 +1,25 @@
+{
+ "ProcessJobMode": "",
+ "Group": {
+  "pmtest1": [
+   "cmtest1"
+  ]
+ },
+ "Enable_paths": [
+  "TM1-CM",
+  "path2"
+ ],
+ "Disable_paths": [
+  "path3",
+  "path4"
+ ],
+ "Return_paths": {
+  "path5": "p2",
+  "path6": "p2"
+ },
+ "Priority": {
+  "path1": 2,
+  "path2": 1
+ },
+ "Interlocking": null
+}
